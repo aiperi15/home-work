@@ -1,0 +1,419 @@
+@import "global";
+@import "mixin";
+@import "later";
+@import "space around";
+@import "display";
+#header{
+  padding: 20px 10px 0 10px;
+  background: #FFFFFF;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  .header{
+    &__title{
+      @include center();
+    }
+      &__subtitle a{
+        font-weight: 400;
+        font-size: 15px;
+        color: #1B1A1A;
+        margin-left: 20px;
+      }
+      &__subtitle button{
+        font-weight: 400;
+        font-size: 16px;
+        letter-spacing: 0.4px;
+        color: #FFFFFF;
+        background: #1B1A1A;
+        border-radius: 14px;
+        width: 155px;
+        height: 46px;
+        margin-left: 30px;
+      }
+
+
+    }
+
+    }
+#hero{
+  background: #ECE7E4;
+.hero{
+  @include center();
+.her__group img{
+  width: 720px;
+    height: 720px;
+  }
+  &__hero img{
+    width: 600px;
+    height: 566px;
+  }
+}
+
+
+
+}
+#work{
+  padding: 50px 50px;
+.work{
+  @include space-around();
+&__h1{
+  font-size: 32px;
+  color: #403E3B;
+}
+  &__p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #403E3B;
+    width: 493px;
+    height: 144px;
+    margin: 20px 0 10px 0;
+  }
+  .work__img{
+    display: flex;
+   align-items: center;
+    margin: 36px 0;
+  }
+}
+}
+#book{
+  margin: 500px 0 0 0;
+background: url("../img/img5.png") no-repeat center/cover;
+min-height: 60vh;
+  width: 1400px;
+  height: 500px;
+.book{
+  .book__text{
+    padding: 250px 0 0 970px ;
+  }
+    &__text h3{
+      font-size: 14px;
+      line-height: 20px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: #403E3B;
+
+
+
+    }
+    &__text p{
+
+      color: #645C55;
+      width: 285px;
+      height: 48px;
+
+    }
+
+
+  }
+
+}
+#logo{
+  margin: 60px 0 15px 0;
+.logo{
+
+  &__h1 h3{
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #645C55
+  }
+  &__h1 h1{
+    font-size: 39px;
+    color: #1B1A1A;
+    font-family: 'Poppins';
+    font-weight: 400;
+  }
+  &__logo1 h3{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #403E3B;
+    padding-left: 100px;
+    margin: 10px 0 0 0;
+
+
+  }
+  &__logo1 p{
+    width: 290px;
+    height: 96px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #645C55;
+    text-align: center;
+  }
+  &__logo1 img{
+    padding-left: 80px;
+  }
+.logo__group{
+  @include space-around();
+  margin: 44px 0 0 0;
+}
+
+}
+}
+#book1{
+  margin: 160px 0 0 0;
+  background: url("../img/img6.png") no-repeat center/cover;
+  min-height: 60vh;
+  width: 1400px;
+  height: 500px;
+  .book{
+    .book__text{
+      padding: 250px 0 0 970px ;
+    }
+    &__text h3{
+      font-size: 14px;
+      line-height: 20px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: #403E3B;
+
+
+
+    }
+    &__text p{
+
+      color: #645C55;
+      width: 285px;
+      height: 48px;
+    }
+  }
+}
+#black{
+  background: #403E3B;
+  padding: 98px 0 0 0;
+  width: 1400px;
+  height: 350px;
+.black{
+  @include space-around();
+&__text1 h3{
+  font-size: 14px;
+  letter-spacing: 2px;
+  color: #ECE7E4;
+}
+  &__text1 h1{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    color: #FFFFFF
+  }
+&__text1 p{
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #ECE7E4;
+  width: 451px;
+  height: 72px;
+  margin: 15px 0 0 0;
+}
+&__logo1 img{
+  margin-top: 90px;
+}
+  .logo__4{
+    margin-right: 80px;
+  }
+  .logo__5{
+    margin-right: 80px;
+  }
+}
+}
+#book2{
+
+  background: url("../img/img7.png") no-repeat center/cover;
+  min-height: 60vh;
+  width: 1400px;
+  height: 500px;
+  .book{
+    .book__text{
+      padding: 250px 0 0 50px ;
+    }
+    &__text h3{
+      font-size: 14px;
+      line-height: 20px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: #403E3B;
+
+
+
+    }
+    &__text p{
+
+      color: #645C55;
+      width: 285px;
+      height: 48px;
+    }
+  }
+}
+#also{
+  background: #F7F7F7;
+  padding: 30px 0;
+  .also{
+    &__title h1{
+      font-weight: 400;
+      font-size: 39px;
+      line-height: 42px;
+      color: #1B1A1A;
+      font-family: 'Poppins';
+    }
+    &__title p{
+      font-family: 'Poppins';
+      font-size: 24px;
+      line-height: 30px;
+      color: #645C55;
+      width: 518px;
+      height: 60px;
+      margin: 20px 0 0 0;
+    }
+    .also__title{
+      padding: 50px 0 20px 50px;
+    }
+    .also__img{
+      @include space-around();
+    }
+    .also__img img{
+      width: 310px;
+      height: 410px;
+    }
+    &__h3{
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      color: #1B1A1A;
+      margin: 50px 0 20px 0;
+    }
+
+
+  }
+
+}
+#slow{
+  padding: 80px 0 40px 0;
+.slow{
+  @include center();
+  &__title h1{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 32px;
+    color: #403E3B;
+  }
+  &__title p{
+    width: 358px;
+    height: 72px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 15px;
+    color: #645C55
+  }
+  &__title h3{
+    margin: 20px 0;
+    font-size: 16px;
+    color: #1B1A1A
+  }
+  .work__img{
+    display: flex;
+    align-items: center;
+    margin: 0 0 40px 0;
+
+  }
+  .work__h3{
+    font-size: 17px;
+    color: #1B1A1A;
+    padding: 0 0 0 10px;
+  }
+  .work__h3 span{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    color: #645C55;
+  }
+  .work__img2{
+    display: flex;
+    align-items: center;
+    margin: 0 0 40px 0;
+  }
+  .slow__img2{
+    margin-top: -104px;
+  }
+
+
+
+
+}
+
+}
+#done{
+  background: #CEC4BC;
+ padding: 80px 0 100px 0;
+.done{
+  @include center();
+  &__title h3{
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #645C55;
+  }
+  &__title h1{
+    margin-top: -13px;
+    font-family: 'Poppins';
+    font-style: normal;
+    width: 530px;
+    height: 84px;
+    font-size: 40px;
+    color: #1B1A1A
+
+  }
+  &__subtitle h3{
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #645C55;
+  }
+}
+}
+#footer{
+  background: #F7F7F7;
+  padding: 50px 0 0 0;
+  .footer{
+    @include center();
+    &__title h3{
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 20px;
+      color: #645C55;
+    }
+    &__icon a{
+     color: black;
+      width: 24px;
+      height: 19.5px;
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
